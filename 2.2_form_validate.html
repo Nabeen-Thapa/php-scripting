@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1>from</h1>
+    <form action="" method="" onsubmit="return validateForm()">
+        Name:
+        <input type="text" name="name" id="name">
+        <span id="err_name"></span>
+        <br>
+        email:
+        <input type="email" name="email" id="email">
+        <span id="err_email"></span><br>
+        phone:<input type="number" name="number" id="phone">
+        <span id="err_phone"></span>
+        <br>
+        Address:<input type="text" name="number" id="address">
+        <span id="erraddress"></span>
+        <br>
+        Gender:
+        <input type="radio" name="Gender" id="male" >Male
+        <input type="radio" name="Gender" id="female" >female
+        <input type="radio" name="Gender" id="other" >ohrers
+        <br>
+        country:
+        <select name="" id="country">
+            <option value=" " disabled selected >select country</option>
+            <option value="Nepal">Nepal</option>
+            <option value="usa">USA</option>
+            <option value="india">india</option>
+        </select>
+        <span id="errcountry"></span>
+        <br />
+        <input type="checkbox" id="checkbox">Termas and conditions
+        <br>
+        <span id="errmsg"></span><br />
+        <input type="submit" name="register" id="register" value="submit">
+    </form>
+    <script src="2.2_form_validatejs.js"></script>
+</body>
+</html>
